@@ -1,0 +1,27 @@
+{
+  "name": "zelda-theme-javascript-midi",
+  "version": "1.0.0",
+  "description": "On How to generate the Zelda Theme with JavaScript",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js && open zelda.mid"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/klugjo/zelda-theme-javascript-midi.git"
+  },
+  "keywords": [
+    "Zelda",
+    "JavaScript",
+    "MIDI"
+  ],
+  "author": "Klughertz Jonathan <klughertz.j@gmail.com> (http://klugjo.github.io/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/klugjo/zelda-theme-javascript-midi/issues"
+  },
+  "homepage": "https://github.com/klugjo/zelda-theme-javascript-midi#readme",
+  "dependencies": {
+    "midi-writer-js": "^1.2.1"
+  }
+}
